@@ -40,12 +40,12 @@ export interface GetEnvsRequest {
 
 export interface CreateEnvRequest {
   /** Array of environments to create */
-  envs: EnvItem[];
+  envs: Partial<EnvItem>[];
 }
 
 export interface UpdateEnvRequest {
   /** Environment to update */
-  env: EnvItem;
+  env: Partial<EnvItem>;
 }
 
 export interface DeleteEnvsRequest {
