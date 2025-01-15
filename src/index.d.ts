@@ -5,7 +5,7 @@ export interface EnvItem {
   /** Environment ID */
   id: number;
   /** Environment name */
-  name: number;
+  name: string;
   /** Environment value */
   value: string;
   /** Remarks */
