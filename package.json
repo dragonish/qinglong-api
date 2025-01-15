@@ -1,0 +1,35 @@
+{
+  "name": "qinglong-api",
+  "type": "module",
+  "private": false,
+  "version": "1.0.0",
+  "description": "The TypeScript type for global variable QLAPI",
+  "author": "dragonish",
+  "license": "MIT",
+  "homepage": "https://github.com/dragonish/qinglong-api",
+  "repository": "dragonish/qinglong-api",
+  "main": "",
+  "types": "index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "postbuild": "tsx ./build.ts"
+  },
+  "keywords": [
+    "type",
+    "types",
+    "qinglong",
+    "api",
+    "qlapi"
+  ],
+  "publishConfig": {
+    "directory": "publish"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "rollup-plugin-copy": "^3.5.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}
