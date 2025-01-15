@@ -1,4 +1,4 @@
-# arrive-type
+# qinglong-api
 
 The TypeScript type for global variable `QLAPI`.
 
